@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url("../fonts/roboto.woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    color: #283136;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.button {
+    background: #C1C1C1;
+    border-radius: 3px;
+    border: none;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.button-red {
+    background: #FB565A;
+}
+.button-red:hover {
+    background: #E74246;
+}
+.button-red:active {
+    background: #D7373B;
+}
+.button-green {
+    background: #00CA74;
+}
+.button-green:hover {
+    background: #00BC6C;
+}
+.button-green:active {
+    background: #00AA62;
+}
+.button-yellow {
+    background: #EFC849;
+}
+.button-yellow:hover {
+    background: #EAB534;
+}
+.button-yellow:active {
+    background: #E5A722;
+}
+
+/*header*/
+.header {
+    background: #C1C1C1;
+}
+
+.header .header-slider-content-calltoaction .button {
+    padding: 15px 54px;
+}
